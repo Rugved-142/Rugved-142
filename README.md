@@ -65,6 +65,15 @@ AI-based waste recognition and classification for smart cities.
 
 ---
 
+### ☕ [Beyond Coffee - Prototyping](https://github.com/Rugved-142/Beyond-Coffee---Prototype)
+Medium- and high-Fidelity prototypes using Figma and Moqups to showcase the look and feel of a coffee shop mobile app 
+**Stack:** Figma, Moqups 
+- Designed medium- and high-fidelity prototypes in Moqups and Figma for a smart coffee shop app
+- Focused on personalized rewards, real-time seating/order updates, and accessibility features
+- Incorporated user research insights to prioritize features using the MoSCoW method
+
+---
+
 ### 🤝 [Volunteer & Donation Management System](https://github.com/Rugved-142/Volunteer_and_Donation_Management_System)
 Full-stack platform to connect NGOs with volunteers and donors.  
 **Stack:** Java, Spring Boot, MySQL, Thymeleaf  
