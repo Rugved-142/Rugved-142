@@ -9,23 +9,77 @@ From writing login modules to deploying infrastructure with Terraform — I enjo
 
 ## 🚀 Tech Stack & Skills
 
+### 🧑‍💻 Languages
 ![Java](https://img.shields.io/badge/Java-ED8B00?logo=java&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=white)
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?logo=c%2B%2B&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
+![SQL](https://img.shields.io/badge/SQL-4479A1?logo=database&logoColor=white)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?logo=gnubash&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?logo=mysql&logoColor=white)
 
-![AWS](https://img.shields.io/badge/AWS-232F3E?logo=amazonaws&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-844FBA?logo=terraform&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?logo=githubactions&logoColor=white)
+---
 
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?logo=springboot&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-43853D?logo=node.js&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?logo=express&logoColor=white)
+### 💻 Systems & OS
+![Linux](https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black)
+![UNIX](https://img.shields.io/badge/UNIX-000000?logo=unix&logoColor=white)
+![Windows](https://img.shields.io/badge/Windows-0078D6?logo=windows&logoColor=white)
+![Computer Systems](https://img.shields.io/badge/Computer%20Systems-444444?logo=system76&logoColor=white)
+![Operating Systems](https://img.shields.io/badge/Operating%20Systems-008080?logo=operatingsystem&logoColor=white)
+
+---
+
+### 🌐 Web Development
 ![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB)
-![REST APIs](https://img.shields.io/badge/REST-02569B?logo=apollographql&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-43853D?logo=node.js&logoColor=white)
+![MERN](https://img.shields.io/badge/MERN-3C873A?logo=mongodb&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
+
+---
+
+### 🏗️ Architecture & Design
+![REST](https://img.shields.io/badge/REST-02569B?logo=apollographql&logoColor=white)
+![Microservices](https://img.shields.io/badge/Microservices-29BEB0?logo=microgenetics&logoColor=white)
+![OOP](https://img.shields.io/badge/OOP-000000?logo=object&logoColor=white)
+![Design Patterns](https://img.shields.io/badge/Design%20Patterns-FF6F00?logo=pattern&logoColor=white)
+![SOA](https://img.shields.io/badge/SOA-007ACC?logo=azuredevops&logoColor=white)
+![Event-Driven](https://img.shields.io/badge/Event--Driven-FF4088?logo=eventbrite&logoColor=white)
+![IAM](https://img.shields.io/badge/IAM-232F3E?logo=amazonaws&logoColor=white)
+![SSO](https://img.shields.io/badge/SSO-4CAF50?logo=okta&logoColor=white)
+
+---
+
+### ☁️ Cloud & DevOps
+![AWS](https://img.shields.io/badge/AWS-232F3E?logo=amazonaws&logoColor=white)
+![EC2](https://img.shields.io/badge/EC2-FF9900?logo=amazonaws&logoColor=white)
+![S3](https://img.shields.io/badge/S3-569A31?logo=amazonaws&logoColor=white)
+![RDS](https://img.shields.io/badge/RDS-527FFF?logo=amazonrds&logoColor=white)
+![CloudWatch](https://img.shields.io/badge/CloudWatch-FF4F8B?logo=amazoncloudwatch&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-844FBA?logo=terraform&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?logo=githubactions&logoColor=white)
+![CI/CD](https://img.shields.io/badge/CI%2FCD-239120?logo=azurepipelines&logoColor=white)
+
+---
+
+### 🗄️ Databases
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white)
+![MSSQL](https://img.shields.io/badge/MSSQL-CC2927?logo=microsoftsqlserver&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?logo=redis&logoColor=white)
+
+---
+
+### ⚡ Practices & Methodologies
+![Agile](https://img.shields.io/badge/Agile-28A745?logo=agile&logoColor=white)
+![SCRUM](https://img.shields.io/badge/SCRUM-6DB33F?logo=scrumalliance&logoColor=white)
+![Testing](https://img.shields.io/badge/Testing%20&%20Debugging-000000?logo=testinglibrary&logoColor=white)
+![QA Automation](https://img.shields.io/badge/QA%20Automation-FF5722?logo=pytest&logoColor=white)
+![Collaboration](https://img.shields.io/badge/Collaboration-0077B5?logo=teams&logoColor=white)
+![Data Analysis](https://img.shields.io/badge/Data%20Analysis-4B8BBE?logo=python&logoColor=white)
+![Risk Assessment](https://img.shields.io/badge/Risk%20Assessment-FF0000?logo=security&logoColor=white)
+
 
 ---
 
