@@ -128,7 +128,6 @@ From engineering **Node.js microservices** to provisioning **AWS with Terraform*
 ## 📊 GitHub Analytics
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Rugved-142&layout=compact&theme=tokyonight)  
-![Streak](https://streak-stats.demolab.com?user=Rugved-142&theme=tokyonight)
 
 ---
 
