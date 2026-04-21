@@ -1,10 +1,12 @@
 # 👋 Hi, I'm Rugved Gundawar
 
-🚀 **Software Engineer** | 🔐 **Security & Auth Systems Specialist** | ☁️ **Cloud & Distributed Systems**
+🎓 **MS Information Systems @ Northeastern University** (GPA: 3.7) | Boston, MA  
+🚀 **Software Engineer** — Backend, Distributed Systems & Cloud Infrastructure  
+💼 **2+ years** building enterprise-grade auth & IAM systems at Miniorange
 
-I build **secure, high-performance backend systems** that scale. With 2+ years of experience engineering **enterprise authentication infrastructure** (OAuth2, SAML, JWT), I specialize in **distributed systems, security tooling, and cloud-native development**.
-
-Currently pursuing MS in Information Systems at **Northeastern University** (Cloud Computing & Software Engineering) while building tools that solve real problems—from **rate limiting services** to **AI-powered threat detection**.
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white&style=flat-square)](https://linkedin.com/in/rugved-gundawar)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?logo=vercel&logoColor=white&style=flat-square)](https://rugved-portfolio.vercel.app)
+[![Email](https://img.shields.io/badge/Email-EA4335?logo=gmail&logoColor=white&style=flat-square)](mailto:rgundawar1402@gmail.com)
 
 ---
 
@@ -16,82 +18,114 @@ Currently pursuing MS in Information Systems at **Northeastern University** (Clo
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
 ![Node.js](https://img.shields.io/badge/Node.js-43853D?logo=node.js&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB)
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?logo=c%2B%2B&logoColor=white)
 
 ### ☁️ Cloud & DevOps
 ![AWS](https://img.shields.io/badge/AWS-232F3E?logo=amazonaws&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?logo=kubernetes&logoColor=white)
 ![Terraform](https://img.shields.io/badge/Terraform-844FBA?logo=terraform&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?logo=githubactions&logoColor=white)
-![CI/CD](https://img.shields.io/badge/CI%2FCD-239120?logo=azurepipelines&logoColor=white)
+![Kafka](https://img.shields.io/badge/Kafka-231F20?logo=apachekafka&logoColor=white)
 
-### 🗄️ Databases & Caching
+### 🗄️ Databases & Messaging
 ![Redis](https://img.shields.io/badge/Redis-DC382D?logo=redis&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white)
+![Elasticsearch](https://img.shields.io/badge/Elasticsearch-005571?logo=elasticsearch&logoColor=white)
+![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?logo=rabbitmq&logoColor=white)
 
-### 🔐 Security & Architecture
+### 🔐 Security & Auth
 ![OAuth2](https://img.shields.io/badge/OAuth2-3C873A?logo=auth0&logoColor=white)
-![SAML](https://img.shields.io/badge/SAML-FF6B6B?logo=security&logoColor=white)
 ![JWT](https://img.shields.io/badge/JWT-000000?logo=jsonwebtokens&logoColor=white)
-![SSO](https://img.shields.io/badge/SSO-4CAF50?logo=okta&logoColor=white)
-![REST APIs](https://img.shields.io/badge/REST_APIs-02569B?logo=fastapi&logoColor=white)
-![Microservices](https://img.shields.io/badge/Microservices-29BEB0?logo=microgenetics&logoColor=white)
+![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?logo=springsecurity&logoColor=white)
 
 ---
 
 ## 🛠️ Featured Projects
 
-### 🚦 [RateLimitX - Distributed Rate Limiting Service](https://github.com/Rugved-142/RateLimitX)
-> **Production-grade API rate limiter** with multiple algorithms and circuit breaker patterns.
-- Implemented **Fixed Window, Token Bucket, and Sliding Window Counter** algorithms
-- Built with **Java Spring Boot** backend and **Redis** for distributed state management
-- Integrated **Circuit Breaker** pattern for fault tolerance and cascade failure prevention
-- Fully containerized with **Docker** for easy deployment and scalability
+### 🚦 [RateLimitX — Distributed Rate Limiting Service](https://github.com/Rugved-142/RateLimitX)
+> Production-grade distributed rate limiter with **p95 latency of 11ms** at **4,500+ req/sec**
 
-**Tech:** Java, Spring Boot, Redis, Docker, REST APIs, Scala, Gatling
+- **3 algorithms**: Token Bucket, Sliding Window Counter, Fixed Window — switchable at runtime via atomic Redis Lua scripts
+- **JWT auth** with role-based tiered limits: USER (10), PREMIUM (100), ADMIN (1000) req/min via Spring Security 6
+- **Circuit Breaker** pattern (CLOSED → OPEN → HALF_OPEN) with automatic failover to in-memory rate limiting — **99.9% availability**
+- **Event-driven analytics** via Apache Kafka (3 partitions, async publishing) decoupled from rate-limit decisions
+- **Real-time observability**: Prometheus metrics + auto-provisioned Grafana dashboards
+- **7 services** orchestrated via Docker Compose + Kubernetes; load tested with Gatling
 
----
-
-### 🛡️ [AI Phishing Detector - Chrome Extension](https://github.com/Rugved-142/AI-Phishing-Detector)
-> **Real-time phishing detection** powered by Google Gemini AI with 85% accuracy.
-- Multi-layered analysis: **URL patterns, DOM structure, brand impersonation** detection
-- Evaluates **20+ risk factors** including SSL certificates, domain age, and suspicious forms
-- **Node.js backend** with MongoDB for threat intelligence and logging
-- Clean Chrome extension UI with real-time threat scoring
-
-**Tech:** JavaScript, Node.js, MongoDB, Google Gemini API, Chrome Extensions API
+**Tech:** Java · Spring Boot · Redis · Kafka · PostgreSQL · Prometheus · Grafana · Docker · Kubernetes · Gatling
 
 ---
 
-### ☁️ [AWS Cloud Infrastructure & File Service](https://github.com/CSYE6225-Rugved/aws-nodejs-service)
-> **Secure file management service** with Terraform-provisioned AWS infrastructure.
-- REST APIs for S3-based storage with RDS metadata (Sequelize ORM)
-- SNS integration for real-time notifications (reduced debugging time ~40%)
-- Monitoring with StatsD + CloudWatch; CI/CD via GitHub Actions
-- **IaC with Terraform**: EC2, RDS, VPC, IAM with least-privilege policies
+### ☁️ [Cloud-Native Web Application & Infrastructure](https://github.com/orgs/CSYE6225-Rugved/repositories)
+> Full AWS infrastructure provisioned with Terraform IaC — zero manual steps from code to production
 
-**Tech:** Node.js, AWS (EC2, S3, RDS, SNS, VPC), Terraform, GitHub Actions
+- Automated **VPC, EC2, ALB, ASG, RDS, Lambda, SNS, SES, S3, IAM** with least-privilege principles and zero hardcoded credentials
+- **CI/CD pipeline** via GitHub Actions: Docker build → Amazon ECR → auto-deploy on every push to main
+- **CloudWatch alarms** for ALB unhealthy hosts, EC2 CPU, Lambda errors, and 5XX responses with real-time SNS alerting
+- S3 profile image uploads using IAM role-based access
 
----
-
-### 🤝 [Community Connect](https://github.com/Rugved-142/Community_Connect)
-> **Full-stack platform** connecting NGOs with volunteers and donors.
-- Role-based access control with secure authentication
-- Donation tracking, volunteer shift assignment, and reporting dashboards
-
-**Tech:** Java, Spring Boot, MySQL
+**Tech:** AWS · Terraform · Node.js · Docker · GitHub Actions · CloudWatch · SNS · SES
 
 ---
 
-### 🧠 [Smart Waste Classification System](https://github.com/Rugved-142/Smart-Waste-Management-Recycling-System)
-> **AI-powered waste sorting** for sustainable recycling decisions.
-- CNN (MobileNetV2) trained on 9 waste categories
-- Flask API + Streamlit UI for real-time predictions
+### 📊 [Big Data Indexing — Medical Insurance Plan API](https://github.com/Rugved-142/INFO_7255_Big_Data_Indexing)
+> RESTful API with advanced search indexing, async messaging, and OAuth2 security
 
-**Tech:** Python, TensorFlow, Flask, Streamlit
+- **Decomposed Redis** key-value storage with parent-child relationships (7 keys per plan object) + cascaded deletes
+- **Elasticsearch** parent-child indexing — 4-level hierarchy (plan → membercostshare → planservice → linkedservice) with routing keys for same-shard co-location
+- **RabbitMQ** async pipeline: API → Queue → Consumer → Elasticsearch, decoupling writes from search index updates
+- Full CRUD + JSON Schema validation (RFC 7386 Merge Patch) + ETag-based conditional reads/writes (304, 412)
+- Secured with **Google IDP OAuth2 RS256 JWT** via Spring Security
+
+**Tech:** Java 17 · Spring Boot · Redis · Elasticsearch · RabbitMQ · Kibana · OAuth2 · Docker
+
+---
+
+### 🛡️ [AI Phishing Detector — Chrome Extension](https://github.com/Rugved-142/AI-Phishing-Detector)
+> Hybrid AI + traditional threat detection with **71 passing tests** across 5 test suites
+
+- **Hybrid scoring**: 20+ traditional risk factors (URL analysis, DOM structure, brand impersonation) + Google Gemini 2.5 Flash NLP (60% traditional + 40% AI)
+- **Two-layer protection**: pre-loading URL screening blocks high-risk sites before content loads + deep content analysis
+- **<100ms detection time** with color-coded risk badges (Low 0–30 / Medium 31–60 / High 61–100)
+- Optional **Node.js/Express.js/MongoDB** backend exposing `/api/threats`, `/api/reports`, `/api/analytics`
+- 71 tests across 5 Jest suites: AI integration, detection engine, service worker, UI components, end-to-end
+
+**Tech:** JavaScript · Manifest V3 · Google Gemini API · Node.js · Express.js · MongoDB · Jest
+
+---
+
+### 🤝 [Community Connect — Enterprise Charitable Operations Platform](https://github.com/Rugved-142/Community_Connect)
+> Multi-tenant Java desktop app reducing administrative overhead by **60%**
+
+- **4-tier hierarchy**: Network → Enterprise → Organization → Users with 8 specialized RBAC roles
+- Real-time donation processing, automated volunteer task assignment, priority-based aid distribution
+- **Twilio SMS SDK** for event-driven notifications; JavaFaker for 150+ realistic test user profiles
+- 130+ Java classes across layered architecture — Repository, Factory, Observer, MVC patterns; boots in <3s
+
+**Tech:** Java 21 · Swing GUI · Maven · Twilio SDK · JavaFaker · MVC
+
+---
+
+### 🧪 [Selenium Test Automation — NEU Web Applications](https://github.com/Rugved-142/selenium-automation)
+> End-to-end automated test suite for NEU web apps with Microsoft SSO + Duo 2FA handling
+
+- **Page Object Model** pattern with data-driven testing via Apache POI Excel reader
+- 5 scenarios: Canvas calendar events, Snell Library room booking, academic calendar, negative test (dataset download)
+- **ExtentReports** HTML reporting with per-scenario screenshots before/after each step
+- Dynamic 60s wait strategy for Duo 2FA push approval — reliable execution across authenticated apps
+
+**Tech:** Java 11 · Selenium WebDriver 4 · TestNG · Maven · Apache POI · ExtentReports
+
+---
+
+## 💼 Work Experience Highlights
+
+| Company | Role | Impact |
+|---|---|---|
+| **Miniorange Software Securities** | Software Developer Engineer | 60,000+ users · $50K contract · $40K revenue · 3hr→30min deployments |
+| **IMATMI** | Full Stack Developer Intern | 85% match accuracy · 100ms→20ms latency · 75% faster reports |
+| **InfoSpeed Services** | Software Developer Intern | 15,000 daily scans · 63% defect reduction · 91% test coverage |
 
 ---
 
@@ -101,11 +135,4 @@ Currently pursuing MS in Information Systems at **Northeastern University** (Clo
 
 ---
 
-## 📫 Let's Connect
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&style=for-the-badge&logoColor=white)](https://linkedin.com/in/rugved-gundawar)
-[![Email](https://img.shields.io/badge/Email-EA4335?logo=gmail&style=for-the-badge&logoColor=white)](mailto:gundawar.r@northeastern.edu)
-
----
-
-*"Build systems that protect, scale, and just work."*
+*"Build systems that are secure, observable, and built to last."*
