@@ -33,11 +33,20 @@
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white)
 ![Elasticsearch](https://img.shields.io/badge/Elasticsearch-005571?logo=elasticsearch&logoColor=white)
 ![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?logo=rabbitmq&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white)
 
 ### 🔐 Security & Auth
 ![OAuth2](https://img.shields.io/badge/OAuth2-3C873A?logo=auth0&logoColor=white)
 ![JWT](https://img.shields.io/badge/JWT-000000?logo=jsonwebtokens&logoColor=white)
 ![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?logo=springsecurity&logoColor=white)
+
+### 🧪 Testing & Monitoring
+![JUnit5](https://img.shields.io/badge/JUnit5-25A162?logo=junit5&logoColor=white)
+![Mockito](https://img.shields.io/badge/Mockito-78A641?logoColor=white)
+![Gatling](https://img.shields.io/badge/Gatling-FF9E2A?logo=gatling&logoColor=white)
+![Selenium](https://img.shields.io/badge/Selenium-43B02A?logo=selenium&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?logo=prometheus&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?logo=grafana&logoColor=white)
 
 ---
 
